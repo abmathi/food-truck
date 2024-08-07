@@ -1,0 +1,57 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.main {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('pics/ft1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navlink li {
+    display: inline;
+    padding: 0.75rem 5.25rem;
+}
+
+
+.main img {
+    width: 35rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* add @media queries */
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    .main img {
+      display: none;
+    }
+  }
